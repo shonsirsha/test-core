@@ -3,9 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
-.pnp.js
-.pnp.cjs
-.pnp.loader.mjs
+
 
 # testing
 /coverage
@@ -25,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .yarn
+.pnp.js
+.pnp.cjs
+.pnp.loader.mjs
