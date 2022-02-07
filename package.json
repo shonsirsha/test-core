@@ -2,6 +2,8 @@
   "name": "core",
   "version": "0.1.0",
   "private": true,
+  "main": "src/index.tsx",
+  "module": "src/index.tsx",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.16.7",
     "@emotion/react": "^11.7.1",
@@ -31,7 +33,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "craco build",
+    "build": "react-scripts build",
     "test": "craco test",
     "eject": "react-scripts eject",
     "version": "yarn info core"
